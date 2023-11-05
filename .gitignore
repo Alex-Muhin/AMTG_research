@@ -1,0 +1,4 @@
+# Ignore PyCharm auxilary folders
+.idea/
+__pycache__/
+*.cfg
