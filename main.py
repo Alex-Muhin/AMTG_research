@@ -1,6 +1,7 @@
 # This is a sample Python script.
 import configparser
 from Lessons import L001_PrimeNumbers
+from Lessons import L002_MagicBall
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -28,7 +29,8 @@ if taskToRun <= 0:
 
 if taskToRun==1:
     L001_PrimeNumbers.lesson001_PrimeNumber()   # Lesson 001: find prime numbers
-
+elif taskToRun==2:
+    L002_MagicBall.lesson002_MagicBall()        # Lesson 002: Magic ball
 
 config['Default'] = {'taskToRun': taskToRun}
 with open('AMTA.cfg', 'w') as configfile:
