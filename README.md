@@ -10,8 +10,13 @@ Each task is a function defined in a separate file situates in the Lessons direc
 ## Lessons list
 * Ex001: Output prime numbers laying in the range entered by user
         (L001_PrimeNumbers.py)
-* Ex002:
-* Ex003:
+* Ex002: MagicBall game
+        (L002_MagicBall.py)
+* Ex003: User need to find out the random number
+        (L003_NumberQuizz.py)
+* Ex004: ...
+        (L004_....py)
+
 
 
 
