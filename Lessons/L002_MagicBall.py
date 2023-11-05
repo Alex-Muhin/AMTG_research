@@ -1,9 +1,3 @@
-
-
-if __name__ == '__main__':
-    exit(0)
-
-#========================================== module start =============================================
 def lesson002_MagicBall():
 
     searchStart = int(input("Magic Ball: "))

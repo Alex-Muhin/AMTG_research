@@ -1,6 +1,3 @@
-if __name__ == '__main__':
-    exit(0)
-
 def is_prime(num):
     if num == 1:
         return False
@@ -13,7 +10,6 @@ def is_prime(num):
             return False
     return True
 
-#========================================== module start =============================================
 def lesson001_PrimeNumber():
 
     searchStart = int(input("Ищем простые числа от: "))
