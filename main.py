@@ -2,6 +2,7 @@
 import configparser
 from Lessons import L001_PrimeNumbers
 from Lessons import L002_MagicBall
+from Lessons import L003_NumberQuizz
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -27,14 +28,17 @@ if taskInput.isnumeric():
 if taskToRun <= 0:
     exit(0)
 
+config['Default'] = {'taskToRun': taskToRun}
+with open('AMTA.cfg', 'w') as configfile:
+  config.write(configfile)
+
 if taskToRun==1:
     L001_PrimeNumbers.lesson001_PrimeNumber()   # Lesson 001: find prime numbers
 elif taskToRun==2:
     L002_MagicBall.lesson002_MagicBall()        # Lesson 002: Magic ball
+elif taskToRun==3:
+    L003_NumberQuizz.Lesson003_NumberQuizz()    # Lesson 002: Magic ball
 
-config['Default'] = {'taskToRun': taskToRun}
-with open('AMTA.cfg', 'w') as configfile:
-  config.write(configfile)
 
 
 
